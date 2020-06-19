@@ -1,0 +1,303 @@
+<html>
+<head>
+<titile></title>
+    
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<style>
+body{
+	background-color:white;
+	
+}
+header {
+	padding:50px;
+	
+	font-style:italic;
+	font-size:12pt;
+	font-weight:bold;
+	width:300px;
+
+	height:0px;
+	margin-left:60px;
+	margin-bottom:-15px;
+	}
+header img {
+	height:20px;
+	width:30px;
+	opacity:1;	
+	}
+nav {
+	background-color:black;
+	padding:20px;
+	margin-left:100px;
+	width:1200px;
+	position:relative;
+	height:20px;
+	
+	}
+nav ul {
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	}
+nav ul li {
+	overflow:hidden;
+	height:20px;
+	float:left;
+	list-style:none;
+	padding:10px;
+	}
+nav ul li:hover
+		{
+		overflow:visible;
+		height:20px;
+		list-style:none;
+		text-decoration:underline;
+	}
+nav ul li a{
+	color:white;
+	text-decoration:none;
+}
+nav ul a:hover{
+	color:white;
+	text-decoration:none;
+
+		}
+#div1{
+	padding:30px;
+	margin:30px auto;
+	border:0px  ! important;
+	margin-top:-18px;
+	margin-left:70px;
+	height:40px;
+ }
+div div{
+	float:left;
+	color:black;
+	margin:20px;
+	width:400px;
+	height:180px;
+	border:1px solid;
+	padding:5px;
+}
+#div2:hover,#div3:hover,#div4:hover,#div5:hover{
+	
+	font-size:20px;
+	}
+#div2 a,#div3 a,#div5 a,#div4 a{
+
+	text-decoration:none;
+	color:black;
+}
+div div #img{
+	height:400px;
+	width:400px;
+	
+	position:absolute;
+}
+div div h1{
+	text-align:center;
+	padding:50px;
+	
+	}
+
+#section{
+	
+	margin-top:400px;
+	margin-left:570px;
+	padding:0px;
+	background-color:white;
+	color:black;
+	height:350px;
+	width:770px;
+	box-shadow:0px 5px 5px 5px #d3d3d3;
+	font-family:Bradley Hand ITC;
+	  
+}
+#section1{
+           	
+	padding:5px;
+	height:250px;
+	width:450px;
+	
+	margin-left:100px;
+	background-color:white;
+	margin-top:-170px;
+	position:absolute;
+}
+#div2{
+	margin:65px;
+	margin-top:10px;
+	margin-left:-15px;
+}
+#div3{
+	margin-top:9px;
+	margin-left:-65px;
+}
+#div4{
+	margin-left:65px;
+	margin-top:-75px;	
+}
+#div5{
+	margin-left:-20px;
+	margin-top:-75px;	
+}
+#section #first,#section #second,#section #third{
+				background-color:blue;
+				height:250px;
+				width:200px;
+				margin-left:40px;
+				 float:left;
+				margin-top:-30px;
+				
+}
+#section #first #fi,#section #second #fs,#section #third #ft{
+				background-color:white;
+				height:140px;
+				width:130px;
+				margin-top:82px;
+				
+				color:black;
+				font-weight:bold;
+				font-style:Tahoma;
+				font-size:10px;
+				padding:14px;
+				border:0px ! important;
+				
+
+}
+#section2 #mission{
+background-color:#D3D3D3;
+}
+#section2 #mission:hover{
+	background-color:	#A9A9A9;
+}
+
+</style>
+<script>
+h=1;
+function changeImage(){
+
+	i=document.getElementById("imgTag");
+	i.src=h+".jpg";
+	h++;
+	if(h==5){
+	h=1;
+}
+	setTimeout(changeImage,3000);
+}
+</script>
+
+</head>
+<body onload="changeImage();">
+	<header>
+			
+		POWER SUPPLY & SOLUTIONS
+	</header>
+<nav>
+	<ul>
+		<li><a href="power.html">Home |</a></li>
+		<li><a href="About us.html">About Us |</a></li>
+		<li><a href="services.html">Services |</a></li>
+		<li><a href="work.html">Our Work |</a></li>
+		
+		<li><a href="contact.html">Contact |</a>
+            			
+		</li>
+<div style="clear:both;"></div>
+	</ul>
+</nav>
+<div >
+			<div id="div1" >
+			<img id="img" src="hh.jpg" style="height:373px;width:415px;margin-top:-2px;"></img>
+			
+		</div>
+		<div id="div2" style="background-image:url('back.jpg');">
+		<a href="#"><h1>OLD GENSET</a></h1>
+			
+		</div>
+
+		<div id="div3" style="background-image:url('back.jpg');">
+			<a href="#"><h1>NEW GENSET</h1></a>
+		</div>
+		<div style="clear:both;border:0px ! important;"></div>	
+		<div id="div4" style="background-image:url('back.jpg');">
+			<a href="#"><h1>SCRAP</h1></a>
+		</div>
+		<div id="div5" style="background-image:url('back.jpg');">
+			<a href="#"><h1>PARTS</h1></a>
+		</div>
+		
+		<div style="clear:both;border:0px ! important; background-color:white;margin-top:-105px;margin-left:95px;width:450px;"><img src="3.jpg" id="imgTag" style="height:180px; width:455px; position:absolute;"></img></div>
+</div>
+
+<section id="section">
+<div style="height:50px;width:100px;margin-left:40px;text-align:center;padding:5px;"><h3>Our Work...</h3></div>
+<div id="first" style="background-image:url('kirlos.jpg');">
+<div id="fi" >"<h1>10 Years Of Patnership</h1><div style="height:20px; width:130px; margin-top:-190px;margin-left:0px;font-weight:bolder;font-size:10pt;padding:0px;font-family:Verdana;border:0px ! important;"><p>Patnership</p></div></div>
+</div>
+<div id="second" style="background-image:url('ley.jpg');">
+<div id="fs"><h1>5 Years Of Patnership</h1><div style="height:20px; width:80px; margin-top:-190px;margin-left:0px;font-weight:bolder;font-size:10pt;padding:0px;font-family:Verdana;border:0px ! important;"><p>Patnership</p></div></div>
+</div>
+<div id="third"style="background-image:url('other.jpg');"><div id="ft"><h1>Looking Forward</h1><div style="height:20px; width:180px;font-weight:bolder; margin-top:-150px;margin-left:0px;font-size:10pt;padding:0px;font-family:Verdana;border:0px ! important;"><p>More Patnerships</p></div></div></div>
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+<div style="clear:both"></div>
+</section>
+
+<section id="section1">
+
+<marquee direction="up" scrollamount="3" height="170px">
+<h1>Welcome To Power Supply  & Solutions</h1>
+<p>Today we are in the era of development all over India, and we are strongly emerging as a vital, committed force in the area of power requirements. As a part of Company's policy we encourage shared performance responsibility which ensures the highest degree of professional service and results on all projects undertaken.</p>				
+</marquee>
+</section>
+
+
+<section id="section2" style="height:200px; width:1222px; margin-top:60px; margin-left:100px; padding:10px;background-color:white;">
+<div id="mission" style="height:40px; width:1240px; margin-top:-50px; margin-left:-10px;font-family:arial;font-weight:normal;padding:1px;position:absolute;"><h3>&nbsp Our Mission</h3></div></div>
+<div style="height:200px;width:500px; margin-top:12px; position:absolute; margin-left:-10px;"><img src="tool.jpg" style="width:320px;height:175px;"></img></div>
+<div style="height:160px;width:880; margin-top:-6px;margin-left:335px; float:left; "><h1>Who We Are</h1>
+<p>Today we are in the era of development all over India, and we are strongly emerging as a vital, committed force in the area of power supply.
+
+</p><p>Power Supply And Solutions offer a full range of power supply and generator related services. The project teams maintain a strong foundation of trust and mutual respect generated through positive relationships with the clients, architects, engineers, subcontractors and suppliers. As a part of Company's policy we encourage shared performance responsibility which ensures the highest degree of professional service and results on all projects undertaken.</p>
+</div>
+<div style="clear:both;height:200px;width:400px"></div>
+</section>
+
+
+<section id="sectionlast" style="height:250px;width:1245px;margin-left:100px; margin-top:0px;background-color:white;box-shadow:0px 5px 5px 5px #d3d3d3;">
+
+<Div style="height:180px;width:120px;float:left; margin-left:20px; margin-top:10px;">
+<ol style="list-style:none;"><h4>QUICK LINKS</h4>
+<li><a href="power.html" style="text-decoration:none;color:black;">Home</a></li>
+<li><a href="About us.html" style="text-decoration:none;color:black;">About Us</a></li>
+<li><a href="services.html" style="text-decoration:none;color:black;">Sevices</a></li>
+<li><a href="work.html" style="text-decoration:none;color:black;">Our Work</a></li>
+
+<li><a href="contact.html" style="text-decoration:none; color:black;">Contact Us</a></li>
+</ol>
+</div>
+<Div style=" height:300px;width:600px;float:left;margin-left:150px;margin-top:10px;padding:0px;">
+<h1>Head Office:</h1>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3465.7677359575587!2d77.00643181488947!3d29.697512882009946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390e70003aaaaaab%3A0x15ffb575b374b425!2sPower+Supply+%26+Solutions!5e0!3m2!1sen!2sin!4v1560637275504!5m2!1sen!2sin" width="600" height="160" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+<Div style=" height:200px;width:140px;float:left;margin-left:120px;margin-top:10px;">
+<h3>Contact Detail:</h3>
+<p>
+Backside himalaya public school,near santoshi maa mandir,Nh1
+<h4>karnal,Haryana</h4></p>
+<p><b>7206600000,&nbsp9034032000</b></p>
+</div>
+
+<div style="clear:both;"></div>
+<div style="clear:both;"></div>
+<div style="clear:both"></div>
+</section>
+<footer style="height:20px;width:1215px;margin-left:100px;background-color:#D3D3D3;font-size:8pt; font-color:#DCDCDC;line-height:2px;padding:15px;box-shadow:0px 5px 5px 5px #d3d3d3;;">
+<P>Copyright © 2019 Power Supply & Solutions. All Rights Reserved. </p>
+<p>Designed by Samik Kumar Singh | #SKS </p>
+</footer>
+
+</body>
+</html>
